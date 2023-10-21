@@ -1,0 +1,4 @@
+- Problema de Lista Duplamente Encadeada
+ * Crie uma lista duplamente encadeada
+ * Divida a lista em duas a partir de uma chave/pivô dada pelo usuário.
+ * Obs: Deve ser criada uma lista anterior a chave e uma lista depois da chave digitada pelo usuário

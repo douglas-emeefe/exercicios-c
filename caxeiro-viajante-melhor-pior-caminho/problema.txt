@@ -1,0 +1,9 @@
+- Problema de Melhor e Pior Caminho entre Bairros:
+  * Considere uma cidade (Manaus) com vários bairros interconectados por ruas. Cada rua tem um custo associado,
+    que pode representar a distância, o tempo de viagem ou qualquer outro critério relevante. 
+    O objetivo é encontrar o melhor e o pior caminho entre varios bairros diferentes na cidade.
+
+- Descrição do problema:
+  * Grafo: Represente a cidade como um grafo, onde os nós/vértices representam os bairros e as arestas representam as ruas
+    que conectam esses bairros. Cada aresta tem um peso associado que reflete o custo (distância, tempo, etc.) 
+    de viajar por essa rua.
