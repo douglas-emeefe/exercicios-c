@@ -1,7 +1,7 @@
 #include <stdio.h>		// Biblioteca entrada e saida de dados
-#define MAX 9			// Definindo constante com tamanho da matriz (nesse caso com 9 posições)
+#define MAX 9			// Definindo constante com tamanho da matriz (nesse caso com 9 posiÃ§Ãµes)
 
-// Definindo a matriz com os dados de cada índice
+// Definindo a matriz com os dados de cada Ã­ndice
 int matriz[MAX][MAX] = {
 	{ 0, 18, 35,  1, 20, 25, 29,  9, 13},
 	{15,  0, 46, 32, 28, 12, 42, 46, 43},
@@ -15,26 +15,29 @@ int matriz[MAX][MAX] = {
 
 };
 
-// Função que impreme a matriz
-void imprimeMatriz() {
+// FunÃ§Ã£o que impreme a matriz
+void imprimeMatriz() 
+{
 	int i,j;
 	printf("             ----------------------------------------------------------------------------------------------------------------------\n");
-	printf("             |  CHAPADA   |  COROADO   |   CENTRO   | PETROPÓLIS |   ALEIXO   |   JAPIIM   |  ALVORADA  |  COMPENSA  |  DOM PEDRO |\n");
+	printf("             |  CHAPADA   |  COROADO   |   CENTRO   | PETROPÃ“LIS |   ALEIXO   |   JAPIIM   |  ALVORADA  |  COMPENSA  |  DOM PEDRO |\n");
 	printf("-----------------------------------------------------------------------------------------------------------------------------------\n");
 	// Bloco que imprime as linhas da matriz (e forma as colunas/matriz)
-	for(i = 0; i < MAX; i++){
+	for(i = 0; i < MAX; i++)
+	{
 		printf("|%s", 
 			(i == 0) ? "    CHAPADA |":
 			(i == 1) ? "    COROADO |":
 			(i == 2) ? "     CENTRO |":
-			(i == 3) ? " PETROPÓLIS |":
+			(i == 3) ? " PETROPÃ“LIS |":
 			(i == 4) ? "     ALEIXO |":
 			(i == 5) ? "     JAPIIM |":
 			(i == 6) ? "   ALVORADA |":
 			(i == 7) ? "   COMPENSA |":
 					   "  DOM PEDRO |"
 		);		
-		for(j = 0; j < MAX; j++){
+		for(j = 0; j < MAX; j++)
+		{
 			printf("     %2d     |", matriz[i][j]);
 		};
 		printf("\n-----------------------------------------------------------------------------------------------------------------------------------\n");
